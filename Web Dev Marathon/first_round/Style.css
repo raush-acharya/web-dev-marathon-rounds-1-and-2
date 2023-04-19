@@ -1,0 +1,88 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+}
+*{
+    margin: 0;
+    padding: 7px;
+}
+body{
+    
+    background-color: #561010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menucard{
+    background-color: #9a1e1e;
+    display: grid;
+    grid-template-areas: "logo image1"
+                          "menu image2"
+                          "menu image3"
+                          "menu image4"
+                          ;
+    width: max-content;
+    height: max-content;
+    border-radius: 20px;
+}
+.logo{
+    grid-area: logo;
+}
+img{
+    grid-area: logo;
+    border-radius: 100%;
+}
+.menu{
+    grid-area: logo;
+    font-size: 3rem;
+    color: white;
+}
+.burger{
+    font-size: 2rem;
+    color: white;
+}
+.menucard{
+    grid-area: menu;
+}
+img {
+    grid-area: images;
+}
+.title{
+    color: #EA9253;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: white;
+}
+.foodmain{
+    font-size: 1.4rem;
+}
+.subtitle{
+    font-size: 0.5rem;
+}
+.image1{
+    grid-area: image1;
+}
+.image2{
+    grid-area: image2;
+}
+.image3{
+    background-color: #f52f2f;
+    border-radius: 20px;
+    grid-area: image3;
+    height: 20px;
+    width: max-content;
+
+}
+.image4{
+    grid-area: image4;
+}
+.advert{
+    display: flex;
+    align-items: center;
+}
+.money{
+    background-color: #f52f2f;
+    border-radius: 20px;
+    position: absolute;
+}

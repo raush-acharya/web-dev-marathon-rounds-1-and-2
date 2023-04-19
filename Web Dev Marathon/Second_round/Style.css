@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: white;
+}
+.messi{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.ronaldo{
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+.topimage{
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+
+}
+.trophies{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+}
+.trophie{
+    width: 250px;
+}
+.trophieimages{
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.items{
+    min-width: 90vw;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.inneritems{
+    width: 250px;
+    display: flex;
+
+    flex-direction: column;
+}
+.innerimages{
+    max-width: 250px;
+}
+/* body{
+    width: 100vw;
+} */
+.about{
+    width: 90vw;
+}
+.contact{
+    width: 90vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(151, 151, 151);
+}
+button{
+    background-color: rgb(168, 168, 168);
+    border: none;
+    height: 40px;
+}
+button:hover{
+    background-color:gray ;
+}
+
+.submit{
+    color: white;
+    font-size: 1.5rem;
+    background-color: black;
+    width: 250px;
+}
+
+.submit:hover{
+    background-color: rgb(46, 46, 46);
+}
